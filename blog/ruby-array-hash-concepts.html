@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+    <link rel="stylesheet" type="text/css" href="styles/blog.css">
+    <meta charset="utf-8"/>
+    <title> Blog template </title>
+  </head>
+  <body>
+  <header>
+      <div id="majorname">
+        <p id="name">Stephanie Major</p>
+        <h3><a href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3">Linkedin</a></h3>
+      </div>
+    </header>
+    <aside>
+      <section class="navbar">
+        <ul>
+          <li>Programming </li>
+          <li>Projects Portfolio</li>
+          <li>Background</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+    </aside>
+      <header>
+      <h1>Ruby: Arrays and borders</h1>
+      <h4><time datetime="2016-01-24">January 18, 2016</time></h4>
+      <p>Today, we will discuss about Ruby, more precisely Arrays and hashes. </p>
+     </header>
+     <main>
+      <section class=entries>
+         <header>
+          <h4>
+            What is the difference between an array and a hash
+          </h4>
+        </header>
+       </section>
+       <section class="main"> 
+        <table>
+            <tr>
+              <td>Array</td>
+              <td>Hash</td>
+            </tr>
+            <tr>
+              <td> An ordered collection of objects</td>
+              <td> An ordered collection of objects</td>
+            </tr>
+            <tr>
+              <td>Stores objects, arrays, hashes, classes, true and false</td>
+              <td> Stores objects in pair (key, value)</td>
+            </tr>
+            <tr>
+              <td>Order of objects remain</td>
+              <td> Order as how the keys were inserted</td>
+            </tr>
+            <tr>
+              <td>Index by 0,1,2,3,4,5...</td>
+              <td> Index per key</td>
+            </tr>
+        </table>
+        <p>We could say that an array is similar to a hash where the keys are imply and consecutive integers starting with zero. While the hash is similar to an array where the indexes can be anything.</p>
+        <p> When and why would we use an array? To keep a list. It could be a list of numbers, a list of strings, or a list of both string and integers or even a list of arrays. For example:</p>
+        <ul>
+          <li>[1,2,3,4,5]</li>
+          <li>[Canada, United-States, France, England]</li>
+          <li>[[China,Japan,South Korea],[Uganda,Kenya, Tanzania]]</li>
+        </ul>
+          <p> When and why would we use a hash? To keep a list with values. For example:</p>
+        <ul>
+          <li>A list of States with their abbreviation</li>
+            <ul>
+              <li>"California", "CA"</li>
+              <li>"Washington","WA"</li>
+            </ul>
+           <li> A list of birthay</li>
+            <ul>
+              <li>"John Doe","01-01-1901"</li>
+              <li>"Janet Die","12-12-1912"</li>
+            </ul>
+        </ul>
+        <p> Hash would therefore be really good to search a specific value: When is John Doe's birthay? What is the abbreviation for Dakota?</p>
+        <p>There are several ways to create an array or a hash. Here is my favorite for each of them:</p>
+        <ul>
+          <li><code>array=[Canada, United-States, France, England]</code> I have created a new array with four strings.</li>
+          <li> <code> state_hash={"California" => "CA", "Washington" => "WA"}</code>I have created a new hash table.</li>
+        </ul>
+        <p> I believe my time is up for today, but needless to say I can tell you much more about arrays and hashes, to start with one: how do we query for an element in them? Well, this will be for another blog entry...</p>
+        <footer>
+          <p>That’s it for today!</p>
+        </footer>
+             
+                <a href="#">All Blog Posts</a>
+                <p><a href="#"> Facebook</a><a href="#"> Twitter</a></p>
+              </section>
+              <div>
+                <p>Comments</p>
+                <p>This is where the comments are posted</p>
+                <p>Post Comments</p>
+                <p><textarea name="Your Name">Your Name</textarea></p>
+                <p><textarea name="Your Email">Your Email</textarea></p>
+                <p><textarea name="Your Comment">Your Comment</textarea></p>
+                <p><input type="submit" value ="Post Comment"></p>
+              </div>
+         
+  </body>
+</html>
