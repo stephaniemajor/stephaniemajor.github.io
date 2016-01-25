@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
 <HEAD> 
-  <link rel="stylesheet" type="text/css" href="styles/default.css">
-  <link rel="stylesheet" type="text/css" href="styles/blog.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
   <title>Blog Index page</title>
 </HEAD>
   <body>
-     <h1>Stephanie Major</h1>
-   <h6><a href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3">Linkedin</a></h6>
-  <h3>Blog Index</h3>
-  <table>
-    <tr>
-      <td>
-        <table>
-          <tr><td>Programming</td> </tr>
-           <tr><td>Projects Portfolio</td> </tr>
-           <tr><td>Background</td> </tr>
-           <tr><td>Blog</td> </tr>
-           <tr><td>Contact</td> </tr>
-        </table>
-      </td>
-    
-     <td>
-        <table>
-          <tr><td><a href="http://stephaniemajor.github.io/blog/git_day_1.html">Git and Github</a></td> </tr>
-          <tr><td><a href="http://stephaniemajor.github.io/blog/css-concepts.html"> CSS: Margins, Borders, Padding</a></td> </tr>
-        </table>
-      </td>
-     </tr>
-     
-  </table>
+       <header>
+      <div id="majorname">
+        <p id="name">Stephanie Major
+        <h4><a id="linkedin" href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3">LinkedIn</a></h4>
+      </div>
+    </header>
+      <section class="navbar">
+        <ul class="taller">
+          <li class="centered">Programming </li>
+          <li>Projects Portfolio</li>
+          <li>Background</li>
+          <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>
+          <li>Contact</li>
+        </ul>
+      </section>
+      <main>
+       <ul class="blog">
+         <li><a href="http://stephaniemajor.github.io/blog/git_day_1.html">Git and Github</a></li>
+         <li><a href="http://stephaniemajor.github.io/blog/css-concepts.html"> CSS: Margins, Borders, Padding</a></li>
+         <li><a href="http://stephaniemajor.github.io/blog/ruby-array-hash-concepts.html"> Ruby: Arrays and Hashes</a></li>
+       </ul>
   </body>
 </html>

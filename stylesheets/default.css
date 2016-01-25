@@ -1,157 +1,101 @@
-body    {
-          background-color:#336699;
-          font-family:verdana;
-          color:white;
-          }
-
+body      {
+          background-color:#999966;
+          font-family:Verdana;
+          color:#333300;
+}
+.flag     {
+          height:1em;
+          width:1.5em;  
+}
 #language {
-          display:inline;
           float:right;
-          clear:right;
-          }
+          margin-bottom:-15px;
+}
 #language ul  {
           list-style-type:none;
-          }
-
-#majorname  {
-          clear:both;
-          display:block;
-          position:relative;
-          }
-#name     {
-          font-family:alegreya;
-          text-align:center;
-          float:center;
-          padding:10px;
-          font-size:50px;
-          color:"white";
-          }
-
-h3        {
-          font-style:italic;
-          text-align:center;
-          padding-top:5px;
-          padding-bottom:5px;
-          color:white;
-          }
-a         {
-          text-decoration:none;
-          color:white;
-          
-          }
-aside     {
-          float:left;
-          margin:1.5%;
-          width:200px;
-          height:400px;
-          }
-
-.navbar ul {
-          list-style-type:none;
-          }
-.navbar li  {
-          height:10px;
-          width:150px;
-          border-radius:5px;
-          display:block;
-          margin:10px;
-          padding:10px;
-          text-align:center;
-          clear:both;
-          list-style-type:none;
-          float:left;
-       
-          }
-#main     {
-           float:right;
-          }
-#main p    {
-          font-size:25px;
-          
-          padding-top:25px;
-          margin-bottom:10px;
-          }
-#main li  {
-          list-style-type:square;
-          
-          padding:5px;
-          font-size:20px;
-          }
-#main img {
-          float:right;
-          margin-right:20px;
-         
-         
-         
-          left:100%;
-          margin-top:5px;
-          margin-right:5px;
-          }
-#language ul  {
-          list-style-type:none;
-          }
+}
 #language li        {
           display:inline;
-          }
+}
+#majorname  {
+          clear:both;
+}
+#linkedin   {
+          color:#333300;
+          
+}
+
 #name     {
           font-family:alegreya;
           text-align:center;
-          float:center;
+          margin-bottom:-40px;
           padding:10px;
           font-size:50px;
-          color:"white";
-          }
-
-h3        {
+}
+h4        {
           font-style:italic;
           text-align:center;
           padding-top:5px;
           padding-bottom:5px;
-          color:white;
-          }
-a         {
-          text-decoration:none;
-          color:white;
           
-          }
-aside     {
-          float:left;
-          margin:1.5%;
-          width:200px;
-          height:400px;
-          }
-
+}
 .navbar ul {
-          list-style-type:none;
-          }
+          margin-left:-45px;
+          
+}
 .navbar li  {
-          height:10px;
-          width:150px;
-          border-radius:5px;
-          display:block;
-          margin:10px;
-          padding:10px;
+          padding-left:0.5px;
+          padding-top:10px;
+          padding-bottom:10px;
           text-align:center;
-          clear:both;
+          width:104px;
+          border-radius:5px;
+          margin:5px;
           list-style-type:none;
-          float:left;
-       
-          }
+          float:left; 
+          font-size:15px;
+          border-color:#cccc00;
+          box-shadow:inset 0 0 10px #666633
+}
+.taller li   {
+          height:36px;
+          
+}
+.centered {
+          padding-top:150px;
+}
 #main     {
-           float:right;
-          }
+           float:none;
+           position:relative;
+           margin-top:100px;
+           margin-bottom:100px;
+}
+
 #main p    {
           font-size:25px;
-          
-          padding-top:25px;
-          margin-bottom:10px;
-          }
+          padding:15px;
+          margin-bottom:-30px;
+}
+
 #main li  {
           list-style-type:square;
-          
+          margin-left:30px;
           padding:5px;
           font-size:20px;
-          }
+}
+
 #main img {
-          float:right;
-          margin-right:20px;
+        position:relative;
+        left:300px;
+       
+}
+.photo    {
+          margin-top:-100px;
+          margin-left:300px;
+          width:200px;
+          height:200px;
+}
+a         {
+          color:#333300;
+
+}
