@@ -47,6 +47,13 @@
          
        </table>
       </section>
+       <section>
+        <p>What do we see?</p>
+        <p>If you look closely at the shorter way to create our Refrigerator class, we see that when we ask for what is in our refrigerator, one items is shown with a negative quantity (mushroom pack). This is because there is no control, the person has total liberty to make changes as he/she wants due to attribute accessor quality we have given.</p>
+        <p>On the other hand, the longer way to create the class includes methods and within one of the methods we are preventing someone from deleting more items than there are. </p>
+        <p>I did it by incorporing in my method: 	"if @top_shelf[item] < quantity puts "There is only #{top_shelf[item]} on the shelf"</p>
+        <p> Another thing worth mentioning is the way we are adding and deleting food items in the refrigerator as well how we are interrogating about the refrigerator's content.I personally find the class with method to be easier to understand, we don;t need to remember that we need sqaure bracket and an equal. But then, in these cases, we need to remember the name of the method and the number of arguments required. So, you can see, it is not perfect too... </p>
+      </section>
       <section class="notes">
         <p>Notes related to the first way to create a class.</p>
         <p>Note 1: The refrigerator name is an attribute reader because nobody can change its name once created.</p>
@@ -64,14 +71,7 @@
         <p>Note g: We are calling the method delete for our downstairs refrigerator.</p>
         <p>Note h: A message is printed for us but the program did not do anything else about it because we did not give any other instructions.</p>
       </section>
-      <section>
-        <p>What do we see?</p>
-        <p>If you look closely at the shorter way to create our Refrigerator class, we see that when we ask for what is in our refrigerator, one items is shown with a negative quantity (mushroom pack). This is because there is no control, the person has total liberty to make changes as he/she wants due to attribute accessor quality we have given.</p>
-        <p>On the other hand, the longer way to create the class includes methods and within one of the methods we are preventing someone from deleting more items than there are. </p>
-        <p>I did it by incorporing in my method: 	"if @top_shelf[item] < quantity puts "There is only #{top_shelf[item]} on the shelf"</p>
-        
-        <p> Another thing worth mentioning is the way we are adding and deleting food items in the refrigerator as well how we are interrogating about the refrigerator's content.I personally find the class with method to be easier to understand, we don;t need to remember that we need sqaure bracket and an equal. But then, in these cases, we need to remember the name of the method and the number of arguments required. So, you can see, it is not perfect too... </p>
-      </section>
+     
       
       <footer>
         <p> I hope this comparison helped you understand how to create a class and what the attribute accessor do and their consequences.</p>
