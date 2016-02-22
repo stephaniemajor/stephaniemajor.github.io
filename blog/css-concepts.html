@@ -1,62 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <link rel="stylesheet" type="text/css" href="styles/default.css">
-    <link rel="stylesheet" type="text/css" href="styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
     <meta charset="utf-8"/>
-    <title> Blog template </title>
+    <title>CSS Concepts</title>
   </head>
   <body>
-  <header>
-      <div id="majorname">
+    <header>
+      <div id="title">
         <p id="name">Stephanie Major</p>
-        <h3><a href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3">Linkedin</a></h3>
       </div>
     </header>
-    <aside>
       <section class="navbar">
-        <ul>
-          <li>Programming </li>
-          <li>Projects Portfolio</li>
-          <li>Background</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
+        <ul class="taller">
+          <li>Programming</li>
+          <li><a href="https://stephaniemajor.github.io/projects.html">Projects</a></li>
+          <li><a href="https://stephaniemajor.github.io/about.html">About</a></li>
+          <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>        
+         </ul>
       </section>
-    </aside>
-      <header>
-      <h1>CSS: Borders, margins, and padding</h1>
-      <h4><time datetime="2016-01-18">January 18, 2016</time></h4>
+    <header>
+      <h2>CSS: Borders, margins, and padding</h2>
+      <h3><time datetime="2016-01-18">January 18, 2016</time></h3>
       <p>My topic today about what I am learning to be a developer is about CSS. More precisely about borders, margins, and padding. </p>
      </header>
      <main>
-      <section class=entries>
-         <header>
-          <h4>
-            What are the differences between margin, border, and padding?
-          </h4>
-        </header>
-       </section>
-       <section class="main"> 
+      <h3>What are the differences between margin, border, and padding?</h3>
+      <section class="main"> 
         <p>When using margin, the arias (you can visualize them as a boxes) won’t be touching each other. It means that if you have a list shown as buttons, they will look apart from each other, or, if I may, singular. A day to day analogy is to use townhouses vs houses. The townhouses don’t have margins on their left and right while the houses have margins everywhere. If we push it, we could say that apartments in a building don’t have any borders at all.</p>
         <p>When using padding, the writing inside the area/box won’t touch the border. If you give the same padding all around what is inside, what you have written will look centered. Following our housing comparison above, it would be the space between the inside walls and the outside walls. The latter would be the border. The furniture do not touch the outside wall.</p>
         <p>Last, the border. It gives appearance to the lines around the padding (thick or not, dotted line or not). Again, continuing our housing example, the border are the walls. Brick walls are thick, windows are transparent. Since the housing example is a little less adapted to explain borders, you may also think about Excel, where the borders work the same way than in CSS.</p>
-        <footer>
-          <p>That’s it for today!</p>
-        </footer>
-             
-                <a href="#">All Blog Posts</a>
-                <p><a href="#"> Facebook</a><a href="#"> Twitter</a></p>
-              </section>
-              <div>
-                <p>Comments</p>
-                <p>This is where the comments are posted</p>
-                <p>Post Comments</p>
-                <p><textarea name="Your Name">Your Name</textarea></p>
-                <p><textarea name="Your Email">Your Email</textarea></p>
-                <p><textarea name="Your Comment">Your Comment</textarea></p>
-                <p><input type="submit" value ="Post Comment"></p>
-              </div>
-         
-  </body>
+        <p>That’s it for today!</p>
+        <a href="#">All Blog Posts</a>
+      </section>
+      <div>
+        <p>Comments</p>
+        <p>Post Comments</p>
+        <p><textarea name="Your Name">Your Name</textarea></p>
+        <p><textarea name="Your Email">Your Email</textarea></p>
+        <p><textarea name="Your Comment">Your Comment</textarea></p>
+        <p><input type="submit" value ="Post Comment"></p>
+      </div>
+    </body>
+  <footer>
+    <div class="logos">
+      <a href="https://github.com/stephaniemajor"><img class="links" src="imgs/entoni_github.png" alt="GitHub link"></a>
+      <a id="linkedin" href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3"><img class="links" src="imgs/entoni_linkedin.png" alt="LinkedIn link"></a>
+      <a href="mailto:stephaniemajor99@gmail.com"><img class="links" src="imgs/entoni_email.png" alt="email link"></a>
+    </div>  
+  </footer>
 </html>

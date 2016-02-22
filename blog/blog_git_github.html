@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <HEAD> 
-    <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
-    <title>Index page</title>
-  </HEAD>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <meta charset="utf-8"/>
+    <title>Git and Github</title>
+  </head>
     <body>
      <header>
-      <div id="majorname">
-        <p id="name">Stephanie Major
-        <h4></h4>
+      <div id="title">
+        <p id="name">Stephanie Major</p>
       </div>
     </header>
       <section class="navbar">
         <ul class="taller">
-          <li class="centered">Programming </li>
-          <li>Projects Portfolio</li>
+          <li>Programming </li>
+          <li><a href="https://stephaniemajor.github.io/projects.html">Projects</a></li>
           <li><a href="https://stephaniemajor.github.io/about.html">About</a></li>
-          <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>
-          
+          <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>        
         </ul>
       </section>
-  
-     <h5><time datetime="2016-01-02">January 2, 2016</time></h5>
+     <h3><time datetime="2016-01-02">January 2, 2016</time></h3>
   <main>
     <p>My name is Stephanie Major. In my Blog, I would like to share what I am learning to become a software developer.</p>
-    <h5><p>My first topic: Git Version Control and GitHub</p></h5>
+    <h3><p>My first topic: Git Version Control and GitHub</p></h3>
      <p>What is version control? It is a tool used by programmers to keep track of changes made to a program, or code if you will. It resides on your computer (aka local machine) and on a remote server (typically the cloud like github). The version control remembers the changes made, when they were made, and by whom. So, if, at one point, your program no longer works (there is a bug), version control will permit you to see what you did in between the time it was working and now. This will help you to “debug” your program. I am personally using Git Version Control. There are other version control systems out there, but my knowledge and comments at this point will be about Git Version Control only. </p>
-     <h5><p>How does Git version control work?</p></h5>
+     <h3><p>How does Git version control work?</p></h3>
      <p>First, you should learn to code one feature at a time (best practice) and for each feature you create what we call a “branch”. After you are done coding a feature in your code editor (the code editor is outside the version control -Git), you add this portion of code to your feature branch in Git. The next step is to commit your file. A commit is kind of a snapshot of your code at that point. I like to think of it as a version of my code, you know, version 1, version 2, etc. Voila! You have a portion of code that you can get back to if the need arise…</p>
-     <h5><p>GitHub</p></h5>
+     <h3>GitHub</h3>
      <p>But GitHub offers more than a version control system, it also offers a hub where a team of programmers (up to 100) can see and interact with each other’s code (edit, review, append, merge, etc.). This happens because you are copying your code to the hub (by committing them) and your commits (versions) on Github can be seen by your peers. If you commit often, your team mates can make suggestions and redirect you if you take a wrong road. Usually before being added to the master code, your code will be thoroughly tested by peers or testers. Once all is good, the feature can be added to the master code (pull request). There is also a nice feature depicting how many branches (remember one feature-one branch) of a master code exists and how many commits (versions) each of them has. This depiction shows you where each feature took its root from the master code, meaning, some features started earlier or later from the master code.<p>
      <p>That is it for today!</p>
    </main>     
+       <div>
+        <a href="#">All Blog Posts</a>
+        <p>Comments</p>
+        <p>Post Comments</p>
+        <p><textarea name="Your Name">Your Name</textarea></p>
+        <p><textarea name="Your Email">Your Email</textarea></p>
+        <p><textarea name="Your Comment">Your Comment</textarea></p>
+        <p><input type="submit" value ="Post Comment"></p>
+      </div>
   </body>
   <footer>
     <div class="logos">

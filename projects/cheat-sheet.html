@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <HEAD> 
+    <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+    <link href="../stylesheets/cheat-sheet.css" type="text/css" rel="stylesheet">  
+    <title>Ruby Cheat Sheet</title>
+  </HEAD>
+  <header>
+    <div id="title">
+      <h1>Ruby Cheat Sheet</h1>
+    </div>
+  </header>
+  <body>
+     <section class="navbar">
+        <ul class="taller">
+          <li>General </li>
+          <li>Methods</li>
+          <li>Flow Control</li>
+          <li>Classes & Variables</li>
+          <li>Arrays</li>
+          <li>Hashes</li>
+        </ul>
+    </section>
+    <main>
+      <div id="main">
+        <h3> This is the general page. In a near future, the other tabs will contains examples for each category.</h3>
+          <h2> The basics</h2>
+        <section id="theme">          
+          <p>Don't forget to "return" if the goal is to return something</p>
+          <p>To run a ruby file in the shell => ruby "filename".rb</p>
+          <p>To test a ruby file in the shell => rspec "filename".rb</p>
+          <p>To test the code => type "irb" in the shell, to exit, "ctrl d" </p>
+        </section>
+          <h2>Good to Know</h2>
+        <section id="theme">
+          <p>Variables starts with lowercase</p>
+          <p>"print" is horizontal, "puts" is vertical</p>
+          <p>"puts" means put string</p>
+          <p>"gets" means retrieve string</p>
+          <p>"gets.chomp" takes what's given</p>
+          <p>capital letter has precedence over lowercase => cat < Xander ... false, cat < Xander.downcase ...true</p>
+          <p> objects: string, integer, float</p>
+          <p> \t => prints a tab</p>
+          <p>recurrent syntactic sugar => use the "+" sign</p>
+        </section>
+          <h2>Methods</h2>
+        <section id="theme"> 
+          <p> to call a method: type its name with the parameters in parenthesis</p>
+          <p> to create a method:  def "name"(arg1,arg2), (block of code), end</p>
+          <p> methods: puts, gets, chomp, to_i, to_s, to_f, +, -, *, ?, %  => every methods need an object</p>
+          <p> a method ending with ? => returns a Boolean</p>
+          <p> a method ending with ! => will change the original object</p>
+          <p> A block of code inside a method can be delimited by {}</p>
+        </section>
+          <h2>Flow control</h2>
+        <section id="theme">
+          <p>Flow control => 1) conditional, 2) looping, 3) iteration, 4) exception</p>
+          <ul>
+            <li>conditional: if....; then.....;end or, if... elsif....elsif....else...end</li>
+            <li>conditional: unless....(block of code) end</li>
+            <li>conditional: case name      when ... then... when... then... else... end</li>
+            <li>looping: while ... (block of code) end</li>
+            <li>looping: until... (block of code) end</li>
+            <li>looping: for ... in ... (block of code) end</li>
+            <li>looping: loop do ...... end</li>
+            <li>iterators: .times, .each, .map (works with array)=> always foll'd by block of code</li>
+            <li>exception: 1)raise, 2) rescue, 3) ensure</li>
+          </ul>
+        </section>
+          <h2>Classes and variables</h2>
+        <section id="theme">
+          <p>to create a class => class Capital_letter       def initialize () @class_variable   end </p>
+          <p>#global_variable = variable1 => retrievable anywhere</p>
+          <p>@class variable = variable2 => retievable inside the class only</p>
+        </section>
+          <h2>Arrays</h2>
+        <section id="theme">
+          <p>to create an array: a = Array.new, a = Array.new(2) => specifies the size, a = Array.new(3, "abc") => ["abc", "abc, "abc"], array = []</p>
+          <p>also to create an array: %w{string} => ["s","t","r","i","n","g"], %i{a,b,c} =>[:a, :b, :c] => creates an array of symbols</p>
+          <p>to retrieve an element in an array: array[index#]</p>
+        </section>
+          <h2>Hashes</h2>
+        <section id="theme">
+          <p>to create a hash: h = Hash.new, h = Hash.new(0) => gives a default value of 0, h = {}, Hash {"Florida"=> "FL", "Delaware"=> "DE"}, Hash[[1,2],[3,4]] =>{1=>2, 3=>4}</p>
+          <p>to retrieve a value in a hash: hash["key"], hash.fetch("key"), hash.values_at("key", "key")</p>
+        </section> 
+      <div id="main">
+     </main>
+    </body>
+  <footer>
+    <div class="logos">
+      <a href="https://github.com/stephaniemajor"><img class="links" src="imgs/entoni_github.png" alt="GitHub link"></a>
+      <a id="linkedin" href="http://www.linkedin.com/pub/stephanie-major/0/b8/8b3"><img class="links" src="imgs/entoni_linkedin.png" alt="LinkedIn link"></a>
+      <a href="mailto:stephaniemajor99@gmail.com"><img class="links" src="imgs/entoni_email.png" alt="email link"></a>
+    </div>  
+  </footer>
+</html>      
