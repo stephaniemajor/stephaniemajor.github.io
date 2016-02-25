@@ -1,8 +1,26 @@
 #theme {
           margin-bottom:15px;
-          margin-top:-45px;
+          margin-top:-25px;
 }
-h3{
+
+#warning {
+          margin-top:50px;  
           text-align:center;
-          font-style:italic;
+          font-style:italic;          
+}
+
+#column1 {
+          margin-top:50px;
+          float:left;
+          display:inline-table;
+          margin-left:3%;
+          width:45%;
+}
+
+#column2 {
+          margin-top:50px;
+          float:right;
+          margin-left:3%;
+          width:45%;
+          display:inline-table;
 }
