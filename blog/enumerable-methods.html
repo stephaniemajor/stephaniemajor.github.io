@@ -34,9 +34,9 @@
         <p>An enumerable method is a “mix in” method (using another method) with the ability to sort and rely on an ordering between members of a collection. A collection is, more or less, a list of items (range, arrays, hashes, sets).</p>
         <p>The enumerable method is built over the <code> each </code> method. Because it is built over an <code>each </code> method, only classes where the <code> each </code> method can be used may use an enumerable methods. For example, the array class and the hash class are good candidates because they produce or are a collection, therefore, perfect for an <code>each</code> method.</p>
 
-        <h3>What does the enumerable method <code> map </code> do?</h3>
+        <h3>What does the enumerable method map do?</h3>
         <p>To start, maybe I should mention why I chose to talk about the <code> map </code> method: Because I have seen it used a lot and I wasn’t very clear about what it does. When I looked at it, it was as if, it was too simple to be true. So, I decided to investigate…. </p>
-        <p><code> map </code> creates an array with the results  from running a block of code for every element in the enumerator.  So yes, it is really that simple! </p>
+        <p>Map creates an array with the results  from running a block of code for every element in the enumerator.  So yes, it is really that simple! </p>
         <p>For example: </p>
           <code>(1..4).map { |i| i*i}     #=> [1,4,9,16] </code>
         <p>But what does it do if no “block of code” is given?  </p>
