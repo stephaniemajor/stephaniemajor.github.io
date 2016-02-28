@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
     <meta charset="utf-8"/>
     <title> Ruby Classes </title>
   </head>
+
   <body>
     <header>
       <div id="title">
         <p id="name">Stephanie Major</p>
       </div>
     </header>
+
     <section class="navbar">
       <ul class="taller">
           <li>Programming</li>
@@ -20,16 +22,23 @@
           <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>
         </ul>
     </section>
-    <main>
+
+    <header>
       <h2>Ruby: classes</h2>
       <h3><time datetime="2016-02-06">February 6, 2016</time></h3>
       <p>My topic today is about Ruby. More precisely about classes and attributes. </p>
+
+    </header>
+    
+    <main>
       <h3>What is an enumerable method?</h3>
-     <section class="main"> 
-      <p>An enumerable method is a “mix in” 
+      
+      <section class="main"> 
+        <p>An enumerable method is a “mix in” 
         method (using another method) with the ability to sort and rely on an ordering between members of a collection. A collection is, more or less, a list of items (range, arrays, hashes, sets).</p>
-      <p>The enumerable method is built over the <code> each </code> method. Because it is built over an <code>each </code> method, only classes where the <code> each </code> method can be used may use an enumerable methods. For example, the array class and the hash class are good candidates because they produce or are a collection, therefore, perfect for an <code>each</code> method.</p>
-      <h3>What does the enumerable method <code> map </code> do?</h3>
+        <p>The enumerable method is built over the <code> each </code> method. Because it is built over an <code>each </code> method, only classes where the <code> each </code> method can be used may use an enumerable methods. For example, the array class and the hash class are good candidates because they produce or are a collection, therefore, perfect for an <code>each</code> method.</p>
+
+        <h3>What does the enumerable method <code> map </code> do?</h3>
         <p>To start, maybe I should mention why I chose to talk about the <code> map </code> method: Because I have seen it used a lot and I wasn’t very clear about what it does. When I looked at it, it was as if, it was too simple to be true. So, I decided to investigate…. </p>
         <p><code> map </code> creates an array with the results  from running a block of code for every element in the enumerator.  So yes, it is really that simple! </p>
         <p>For example: </p>
@@ -37,20 +46,23 @@
         <p>But what does it do if no “block of code” is given?  </p>
         <code>(1..4).map { “cat”}    #=> [ “cat”, “cat”, “cat”, “cat” ]</code>
         <p>Voila! No trick, nothing hidden… except, maybe….. I should mention that instead of using the <code> map </code> method, we can use the <code> collect </code> method. They do exactly the same thing. I wouldn’t be surprised that these two synonymous methods come from how people visualize the process: some visualize it as “doing something” and “collecting” the results, while others see it as “re-mapping” the original object through some sort of transformation. </p>
-      </section>
+
         <p>That’s it for today!</p>
-     </main>
+      </section>
+      
+      </main>
+
       <div>
-        <a href="#">All Blog Posts</a>
         <p>Comments</p>
-        <p>This is where the comments are posted</p>
         <p>Post Comments</p>
         <p><textarea name="Your Name">Your Name</textarea></p>
         <p><textarea name="Your Email">Your Email</textarea></p>
         <p><textarea name="Your Comment">Your Comment</textarea></p>
         <p><input type="submit" value ="Post Comment"></p>
       </div>
+
   </body>
+
   <footer>
     <div class="logos">
       <a href="https://github.com/stephaniemajor"><img class="links" src="imgs/entoni_github.png" alt="GitHub link"></a>
