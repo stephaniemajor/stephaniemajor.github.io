@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head> 
-    <link href="../stylesheets/default.css" type="text/css" rel="stylesheet">
-    <link rel="../stylesheet" type="text/css" href="styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
     <meta charset="utf-8"/>
     <title> Ruby Array and Hash Comparison </title>
   </head>
+
   <body>
     <header>
       <div id="title">
         <p id="name">Stephanie Major</p>
       </div>
+
     </header>
-      <section class="navbar">
-        <ul class="taller">
-         <li>Programming </li>
-          <li><a href="https://stephaniemajor.github.io/projects.html">Projects</a></li>
-          <li><a href="https://stephaniemajor.github.io/about.html">About</a></li>
-          <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>
-        </ul>
-      </section>
+
+    <section class="navbar">
+      <ul class="taller">
+       <li>Programming </li>
+        <li><a href="https://stephaniemajor.github.io/projects.html">Projects</a></li>
+        <li><a href="https://stephaniemajor.github.io/about.html">About</a></li>
+        <li><a href="https://stephaniemajor.github.io/blog-index.html">Blog</a></li>
+      </ul>
+    </section>
+
     <header>
       <h2>Ruby: Arrays and borders</h2>
       <h3><time datetime="2016-01-24">January 18, 2016</time></h3>
       <p>Today, we will discuss about Ruby, more precisely Arrays and hashes. </p>
      </header>
-     <main>
+
+    <main>
+     <h3>What is the difference between an array and a hash</h3>
+
       <section class="main">
-       <h3>What is the difference between an array and a hash</h3>
         <table>
-         <tr>
-          <td>Array</td>
-          <td>Hash</td>
+
+           <tr>
+            <td>Array</td>
+            <td>Hash</td>
+           </tr>
+
+           <tr>
+            <td> An ordered collection of objects</td>
+            <td> An ordered collection of objects</td>
+           </tr>
+
+           <tr>
+            <td>Stores objects, arrays, hashes, classes, true and false</td>
+            <td> Stores objects in pair (key, value)</td>
+           </tr>
+
+           <tr>
+            <td>Order of objects remain</td>
+            <td> Order as how the keys were inserted</td>
+          </tr>
+
+          <tr>
+            <td>Index by 0,1,2,3,4,5...</td>
+            <td> Index per key</td>
          </tr>
-         <tr>
-          <td> An ordered collection of objects</td>
-          <td> An ordered collection of objects</td>
-         </tr>
-         <tr>
-          <td>Stores objects, arrays, hashes, classes, true and false</td>
-          <td> Stores objects in pair (key, value)</td>
-         </tr>
-         <tr>
-          <td>Order of objects remain</td>
-          <td> Order as how the keys were inserted</td>
-         </tr>
-         <tr>
-          <td>Index by 0,1,2,3,4,5...</td>
-          <td> Index per key</td>
-         </tr>
+
         </table>
+        
         <p>We could say that an array is similar to a hash where the keys are imply and consecutive integers starting with zero. While the hash is similar to an array where the indexes can be anything.</p>
         <p> When and why would we use an array? To keep a list. It could be a list of numbers, a list of strings, or a list of both string and integers or even a list of arrays. For example:</p>
+        
         <ul>
           <li>[1,2,3,4,5]</li>
           <li>[Canada, United-States, France, England]</li>
           <li>[[China,Japan,South Korea],[Uganda,Kenya, Tanzania]]</li>
         </ul>
+        
         <p> When and why would we use a hash? To keep a list with values. For example:</p>
+        
         <ul>
           <li>A list of States with their abbreviation</li>
             <ul>
@@ -70,27 +86,32 @@
               <li>"Janet Die","12-12-1912"</li>
             </ul>
         </ul>
+        
         <p> Hash would therefore be really good to search a specific value: When is John Doe's birthay? What is the abbreviation for Dakota?</p>
         <p>There are several ways to create an array or a hash. Here is my favorite for each of them:</p>
+        
         <ul>
           <li><code>array=[Canada, United-States, France, England]</code> I have created a new array with four strings.</li>
           <li><code> state_hash={"California" => "CA", "Washington" => "WA"}</code>I have created a new hash table.</li>
         </ul>
+        
         <p> I believe my time is up for today, but needless to say I can tell you much more about arrays and hashes, to start with one: how do we query for an element in them? Well, this will be for another blog entry...</p>
-      </section>
+
         <p>That’s it for today!</p>
+      </section>
+
       </main>
         <div>
-          <a href="#">All Blog Posts</a>
           <p>Comments</p>
-          <p>This is where the comments are posted</p>
           <p>Post Comments</p>
           <p><textarea name="Your Name">Your Name</textarea></p>
           <p><textarea name="Your Email">Your Email</textarea></p>
           <p><textarea name="Your Comment">Your Comment</textarea></p>
           <p><input type="submit" value ="Post Comment"></p>
         </div>
-  </body>
+
+    </body>
+
   <footer>
     <div class="logos">
       <a href="https://github.com/stephaniemajor"><img class="links" src="imgs/entoni_github.png" alt="GitHub link"></a>
