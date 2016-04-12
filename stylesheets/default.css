@@ -2,95 +2,42 @@ body {
           background-color:#a0a0a0;
           font-family:Trebuchet MS;
           color:#303030;
-
-}
-.flag {
-          height:1em;
-          width:1.5em;  
-}
-#language {
-          float:right;
-          margin-bottom:-1%;
-}
-#language ul {
-          list-style-type:none;
-}
-#language li {
-          display:inline;
 }
 
-#title {
-          text-align:center;
-
+header {
+          text-align: center;
 }
+
 #name {
-          font-family:Trebuchet MS;
-          text-align:center;
-          margin-bottom:-40px;
           padding:10px;
           font-size:50px;
 }
-.welcome {
-          font-size:30px;
-          padding-top:5px;
-          padding-bottom:5px;
-          
-}
 
-.navbar {
-          width:100%;
-          padding-bottom:100px;
-          text-align: center;
-}
-.navbar ul {
-          width:100%;
-          list-style-type:none;
-          position:relative;
-          margin-left:2%;
-          margin-right:2%;
-          text-align: center;
-          padding-bottom: 50px
-   
-}
-
-.navbar li {
-          padding-left:0.5px;
-          padding-top:20px;
-          padding-bottom:20px;
-          text-align:center;
-          width:106px;
-          border-radius:5px;
-          margin:60px;
-          float:left; 
-          font-size:15px;
+.box    {
+          display:inline-block;
+          width: 120px;
+          height: 60px;
+          margin: 1em;
           border-color:#cccc00;
           box-shadow:inset 0 0 10px #505050;
-          text-decoration:none;   
-  }
-
-
-
-.taller li  {
-          height:36px;
+          border-radius:5px;
+          text-align: center;
+          text-decoration:none;
+          padding-top: 20px;
 }
 
-.centered {
-          padding-top:150px;
-}
-
-#main {
-          width:70%;
-          float:right;
-          position:relative;
-          margin-top:100px;
-          margin-bottom:100px;
-}
-
-#main p {
+.main {
           font-size:20px;
           padding:15px;
-          margin-bottom:-30px;
 }
+
+.photo {
+          float:left;
+          width:15%;
+          padding-right: 10px;
+          padding-bottom: 10px;
+}
+
 
 #main li {
           list-style-type:square;
@@ -99,30 +46,6 @@ body {
           font-size:15px;
 }
 
-#main img {
-          position:relative;
-          left:300px;
-}
-
-#theme {
-          margin-bottom:2%;
-          margin-top:2%;
-          padding-top:0.2%;
-          
-}
-.photo {
-          margin-top:150px;
-          margin-left:300px;
-          width:200px;
-          height:200px;
-          float:left;
-          position:relative;
-}
-
-#about {
-          margin-top:50px;
-          font-size:20px;
-}
 
 
 a {
@@ -130,24 +53,16 @@ a {
 }
 
 footer {
-          width: 100%;
           bottom: -10px;
           border: 1px solid #505050;
-          position:relative;
-}
-
-.logos {
-         margin-right:10%;
+          text-align: center;
 }
 
 .links {
           width: 30px;
           height: 30px;
-          text-align: center;
           margin-top: 10px;
           margin-bottom: 10px;
-          position:relative;
           display:inline-block;
-          left:50%;
 }
 
